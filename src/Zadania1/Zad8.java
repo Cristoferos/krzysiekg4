@@ -1,10 +1,17 @@
-public class Zad6 {
+package Zadania1;
+
+import java.util.Scanner;
+
+public class Zad8 {
     public static void main(String[] args) {
+        Scanner wpis = new Scanner(System.in);
         int pole1;
-        pole1 = 3 * 4;
+        System.out.println("Podaj szerokosc i dlugosc 1 pokoju");
+        pole1 = wpis.nextInt() * wpis.nextInt();
 
         int pole2;
-        pole2 = pole1;
+        System.out.println("Podaj szerokosc i dlugosc 2 pokoju");
+        pole2 = wpis.nextInt() * wpis.nextInt();
 
         int pole3;
         pole3 = 2 * 3;

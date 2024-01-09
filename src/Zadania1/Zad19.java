@@ -1,3 +1,5 @@
+package Zadania1;
+
 public class Zad19 {
     public static void main(String[] args) {
 

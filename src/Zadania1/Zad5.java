@@ -1,15 +1,12 @@
-import java.util.Scanner;
+package Zadania1;
 
-public class Zad8 {
+public class Zad5 {
     public static void main(String[] args) {
-        Scanner wpis = new Scanner(System.in);
         int pole1;
-        System.out.println("Podaj szerokosc i dlugosc 1 pokoju");
-        pole1 = wpis.nextInt() * wpis.nextInt();
+        pole1 = 3 * 4;
 
         int pole2;
-        System.out.println("Podaj szerokosc i dlugosc 2 pokoju");
-        pole2 = wpis.nextInt() * wpis.nextInt();
+        pole2 = pole1;
 
         int pole3;
         pole3 = 2 * 3;
@@ -24,8 +21,5 @@ public class Zad8 {
                 "\ndrugiego to: " + pole2 + "\ntrzeciego to: " + pole3 +
                 "\noraz czwartego: " + pole4 +
                 "\nPowierzchnia całkowita to: " + CalePole );
-        Double PowierzchniaSolo;
-        PowierzchniaSolo = (double)CalePole/4;
-        System.out.println("Powierzchnia na 1 osobe wynosi: " + PowierzchniaSolo);
     }
 }

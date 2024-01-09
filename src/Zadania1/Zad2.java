@@ -1,3 +1,5 @@
+package Zadania1;
+
 import java.util.Scanner;
 //03.01.2024
 public class Zad2 {

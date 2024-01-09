@@ -1,4 +1,6 @@
-public class Zad5 {
+package Zadania1;
+
+public class Zad6 {
     public static void main(String[] args) {
         int pole1;
         pole1 = 3 * 4;
@@ -19,5 +21,8 @@ public class Zad5 {
                 "\ndrugiego to: " + pole2 + "\ntrzeciego to: " + pole3 +
                 "\noraz czwartego: " + pole4 +
                 "\nPowierzchnia całkowita to: " + CalePole );
+        Double PowierzchniaSolo;
+        PowierzchniaSolo = (double)CalePole/4;
+        System.out.println("Powierzchnia na 1 osobe wynosi: " + PowierzchniaSolo);
     }
 }
